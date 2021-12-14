@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+@import url("container.css");
+@import	url("avatar.css");
+@import	url("button.css");
+@import	url("banner.css");
+@import	url("card.css");
+
+body{
+	font-family: 'time new romance';
+	font-size: 18px;
+	margin: 0px;
+}
+
+h1,h2,h3{
+	font-family: 'time new romance', serif;
+	font-weight: bold;
+  margin-bottom: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+div.scrollmenu {
+  background-color: pink;
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+div.scrollmenu a:hover {
+  background-color: hotpink;
+}
+
+.footer {
+    background-color: whitesmoke;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: center;
+    width: 700px;
+}
+
+
+@media (max-device-width : 500px){
+
+  div.scrollmenu a {
+    display: none;
+  }
+
+  div.scrollmenu i {
+    display: none;
+  }
+
+   div.scrollmenu input {
+    display: none;
+  }
+
+    div.scrollmenu button {
+    display: none;
+  }
+  .cards {
+    display: block;
+  }
+ 
+  
